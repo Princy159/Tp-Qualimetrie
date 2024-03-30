@@ -15,7 +15,7 @@ Ce projet utilise Selenium pour automatiser le processus d'achat sur le site web
 
 7-Clique sur le bouton "Commander" pour passer à l'étape de paiement.
 
-8-Capture un écran de la page de commande pour référence.
+8-Capture un écran de la page
 
 Prérequis
 

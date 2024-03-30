@@ -10,7 +10,7 @@ import time
 driver = webdriver.Firefox()
 driver.get("https://www.zalando.fr/")
 
-
+# Recherche de l'élément de la barre de recherche et saisie de "montre"
 barreDeRecherche = driver.find_element(By.NAME, "q")
 barreDeRecherche.send_keys("montre")
 barreDeRecherche.send_keys(Keys.RETURN)
@@ -70,7 +70,7 @@ WebDriverWait(driver, 10).until(
 commander_button = driver.find_element(By.XPATH, "//button[@class='z-1-button z-coast-base-primary-accessible z-coast-base__totals-tile__button-checkout z-1-button--primary z-1-button--button']/div[text()='Commander']")
 commander_button.click()
 
-
+# Capture d'écran de la page
 time.sleep(20)
 driver.save_screenshot('capture_ecran_commande.png')
 time.sleep(20)
