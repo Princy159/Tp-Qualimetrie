@@ -72,7 +72,7 @@ commander_button.click()
 
 # Capture d'écran de la page
 time.sleep(20)
-driver.save_screenshot('capture_ecran_commande.png')
+driver.save_screenshot('capture_ecran.png')
 time.sleep(20)
 
 driver.quit()
